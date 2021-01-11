@@ -1,0 +1,33 @@
+{
+  "name": "recette-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "nodemon ./bin/www",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cookie-parser": "~1.4.3",
+    "cookie-session": "^1.4.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongoose": "^5.10.8",
+    "morgan": "~1.9.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
