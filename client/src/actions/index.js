@@ -38,7 +38,7 @@ export const submitRecipe = (values,history) => async dispatch =>{
     
   
 
-  const response = await axios.post(`http://api.cloudinary.com/v1_1/${USER}/image/upload/`,formData,{headers: { "X-Requested-With": "XMLHttpRequest" }})
+  const response = await axios.post(`https://api.cloudinary.com/v1_1/${USER}/image/upload/`,formData,{headers: { "X-Requested-With": "XMLHttpRequest" }})
   
   console.log("hey responseeeee",response);
   const recipeData = new FormData();
