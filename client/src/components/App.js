@@ -33,9 +33,10 @@ class App extends Component {
           <div>
             <Header />
             <Switch>
-            <Route exact path="/" component={Landing} />
+            
             <Route exact path="/form/new" component={RecipeNew} />
-            <Route path="/:id"  component={FullRecipe} />
+            <Route exact path="/selected/:id"  component={FullRecipe} />
+            <Route  path="/" component={Landing} />
             
           
 

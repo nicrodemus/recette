@@ -19,7 +19,7 @@ import{deliteRecipe,fetchRecipe} from "../actions/index";
     };
     const selectedRecipeHandler = (id) =>{
         console.log("suca")
-        history.push( "/" + id )}
+        history.push( "/" + `/selected/${id}` )}
     const OnDelete =(id) =>{deleteOneRecipe(id)};
 
     console.log(allRecipies, "dlcdlwmflwdfm");

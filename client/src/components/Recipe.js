@@ -17,7 +17,7 @@ import staticImage from "../assets/basePhoto.jpg";
         
         
     
-        <Link to={ props._id} ><div className="card-content">
+        <Link to={`/selected/${props._id}`} ><div className="card-content">
        {props.listOfIngredients[0]} {props.listOfIngredients[1]}
        
        
